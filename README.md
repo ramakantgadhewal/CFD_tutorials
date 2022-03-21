@@ -1,2 +1,2 @@
-# flameSpread_parallelPanels
-The case, setup with OpenFOAM and FireFOAM version 2.2.x, has been made for educational purposes for undergraduate/postgraduate students and engineers who are interested in CFD modeling of fire-driven flows. The tutorial is not a validation case, rather a simple example of how to setup such a scenario.
+# CFD_tutorials
+Contains CFD cases which have been setup with FireFOAM 2.2.x. The material, mostly related to fire scenarios and buoyancy driven flows, has been made for educational purposes for undergraduate/postgraduate students and engineers who are interested in CFD modeling. The tutorials are not validation cases, rather simple examples of how to setup up some fire-related scenarios.
