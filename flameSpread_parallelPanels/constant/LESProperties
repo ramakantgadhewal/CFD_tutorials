@@ -15,7 +15,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-LESModel        dynamicSmagorinsky;
+LESModel        Smagorinsky;
 
 delta           cubeRootVol;
 
@@ -23,9 +23,9 @@ turbulence      on;
 
 printCoeffs     on;
 
-dynamicSmagorinskyCoeffs
+SmagorinskyCoeffs
 {
-    filter      simple;
+    ck          0.05;
     ce          1.0;
     Prt         0.5;
 }
