@@ -28,13 +28,13 @@ gradSchemes
 divSchemes
 {
     default         none;
-    div(phi,U)      Gauss filteredLinear2V 1 0;
+    div(phi,U)      Gauss linear;
     div(phi,Yi_hs)  Gauss multivariateSelection
     {
-        He          limitedLinear01 0.5;
-        C3H6O       limitedLinear01 0.5;
-        O2          limitedLinear01 0.5;
-        N2          limitedLinear01 0.5;
+        He          limitedLinear01 1.0;
+        C3H6O       limitedLinear01 1.0;
+        O2          limitedLinear01 1.0;
+        N2          limitedLinear01 1.0;
     };
     div((muEff*dev2(T(grad(U))))) Gauss linear;
     div(phiU,p)     Gauss linear;
